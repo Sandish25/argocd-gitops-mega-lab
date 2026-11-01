@@ -17,4 +17,5 @@ spec:
     namespace: taskflow
   # Lab 1: manual sync only. Lab 2 turns on automated sync, selfHeal and prune.
   syncPolicy:
-    automated: {}
+    automated:
+      selfHeal: true
