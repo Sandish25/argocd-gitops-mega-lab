@@ -52,9 +52,9 @@ spec:
           env:
             # ---- Lab 2 starts here: this is where Lab 1 ended ----
             - name: APP_VERSION
-              value: "1.2.1"
+              value: "1.2.2"
             - name: APP_MESSAGE
-              value: "Deployed automatically - nobody clicked Sync !!!!i did bro"
+              value: "Deployed automatically - nobody clicked Sync !!!!done by Sandi"
             - name: APP_ENV
               value: "dev"
             # --------------------------------------------------------------------
