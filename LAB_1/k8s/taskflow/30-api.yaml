@@ -25,7 +25,7 @@ metadata:
     app.kubernetes.io/part-of: taskflow
     app.kubernetes.io/component: backend
 spec:
-  replicas: 4
+  replicas: 5
   revisionHistoryLimit: 5
   strategy:
     type: RollingUpdate
@@ -52,9 +52,9 @@ spec:
           env:
             # ---- Lab 1: change these in Git and watch Argo CD roll them out ----
             - name: APP_VERSION
-              value: "1.1.1"
+              value: "1.1.2"
             - name: APP_MESSAGE
-              value: "Changed through Git - no kubectl! By Sandish Suresh Ray"
+              value: "Changed through Git - no kubectl! By Sandish"
             - name: APP_ENV
               value: "dev"
             # --------------------------------------------------------------------
