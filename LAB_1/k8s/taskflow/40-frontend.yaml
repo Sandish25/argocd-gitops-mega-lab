@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: discoverdevops/taskflow-frontend:1.0.0
+          image: sandishray/taskflow-frontend:1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

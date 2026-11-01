@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: discoverdevops/taskflow-api:1.0.0
+          image: sandishray/taskflow-api:1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
